@@ -38,5 +38,5 @@ Statistics.propTypes = {
 
 Statistics.defaultProps = {
   title: '',
-  ststs: {},
+  stats: {},
 };
