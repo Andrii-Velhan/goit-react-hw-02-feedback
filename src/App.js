@@ -13,6 +13,11 @@ import statisticalData from '../src/bd/statistical-data.json';
 import './App.css';
 
 export default function App() {
+  //  state = {
+  //   good: 0,
+  //   neutral: 0,
+  //   bad: 0,
+  //  };
   return (
     <div className="App">
       <CounterFeedback
@@ -22,7 +27,7 @@ export default function App() {
       // avatar={user.avatar}
       // stats={user.stats}
       />
-      <Statistics title="Upload stats" stats={statisticalData} />
+      <Statistics title="Statistics" stats={statisticalData} />
       {/* <Statistics stats={statisticalData} /> */}
       {/* <FriendList friends={friends} /> */}
       {/* <TransactionHistory items={transactions} /> */}
