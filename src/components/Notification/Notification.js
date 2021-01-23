@@ -1,14 +1,9 @@
-import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-class Notification extends Component {
-  // message = 'No feedback given';
+const Notification = ({ message }) => <div>{message}</div>;
 
-  render() {
-    return <div></div>;
-  }
-}
-
-Notification.propTypes = {};
+Notification.propTypes = {
+  message: PropTypes.string.isRequired,
+};
 
 export default Notification;

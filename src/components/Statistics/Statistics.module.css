@@ -20,10 +20,10 @@
   /* margin-left: auto; */
   /* margin-right: auto; */
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
   font-size: 14px;
   /* max-width: 70%; */
 }
